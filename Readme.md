@@ -1,4 +1,4 @@
-# Bulonera Jeanneret
+# Bulonera Jeannet
 
 El presente proyecto implica un E-commerce para una bolunera y fue realizado a modo de trabajo final en el marco del curso de React dictado por el profesor Félix Blanco desde la comisión 34825 de la plataforma educativa Coderhouse.
 
