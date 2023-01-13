@@ -1,0 +1,77 @@
+.btn {
+  border: none;
+  border-radius: 4px;
+  padding: 2px 4px;
+}
+
+.abs-btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgb(19, 62, 122);
+  color: white;
+  border: none;
+  padding: 0.25rem 0.5rem;
+}
+
+/**
+ Card Base Component
+*/
+.card {
+  border-radius: 2px;
+  border: 2px solid rgb(88, 88, 88);
+}
+
+/**
+ Card text box styles
+*/
+.card-text-box {
+  height: 55px;
+  background-color: rgb(237, 237, 237);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0.5rem;
+}
+
+.header-class {
+  border-bottom: 1px solid rgb(211, 211, 211);
+  border-radius: 6px 6px 0 0;
+}
+
+.footer-class {
+  border-top: 1px solid rgb(211, 211, 211);
+  border-radius: 0 0 6px 6px;
+}
+
+/**
+ Card image styles
+*/
+.card-img {
+  padding: 0 3rem;
+  height: 220px;
+  margin: 0.5rem 0;
+}
+
+.card-description {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0.5rem;
+}
+
+.card-details-btn {
+  background-color: rgb(12, 12, 94);
+  color: white;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  border: none;
+  margin-bottom: 0.5rem;
+  transition: 0.2s ease-in-out;
+}
+
+.card-details-btn:hover {
+  background-color: rgb(28, 28, 154);
+  transition: 0.2s ease-in-out;
+}

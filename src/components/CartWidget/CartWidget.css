@@ -1,0 +1,19 @@
+/* .mi-carrito {
+  width: 120px;
+  direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin: -50px 5px;
+  padding: 0rem;
+  background-color: rgb(212, 36, 36);
+  border-radius: 15px;
+  border-bottom-left-radius: 3rem;
+} */
+
+.mi-carrito {
+  width: 120px;
+  border-color: grey;
+  background-color: rgb(212, 36, 36);
+  border-radius: 15px;
+  border-bottom-left-radius: 3rem;
+}

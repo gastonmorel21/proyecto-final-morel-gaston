@@ -1,0 +1,15 @@
+footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  height: 10vh;
+  padding: 3vh;
+}
+
+.redes {
+  background-color: none;
+  width: 35px;
+  height: 35px;
+  align-self: center;
+  margin: 10px;
+}

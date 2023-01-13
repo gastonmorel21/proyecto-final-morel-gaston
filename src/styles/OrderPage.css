@@ -1,0 +1,10 @@
+.order-page-container {
+    width: 80%;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.order-invoice {
+    border: 1px solid rgb(223, 219, 219);
+    border-bottom: none;
+}
