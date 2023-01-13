@@ -113,6 +113,7 @@ El presente proyecto implica un E-commerce para una bolunera y fue realizado a m
     - Finalmente se realiza una devolución al usuario con los datos de la compra y del ID generado en forma dinámica que incrementará la colección orders en firebase.
 
 <aside>
+              
                 Gracias por leer hasta el final! Que tenga un buen dia!
 
 </aside>
