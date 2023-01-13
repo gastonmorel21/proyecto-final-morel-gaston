@@ -2,6 +2,17 @@
 
 El presente proyecto implica un E-commerce para una bolunera y fue realizado a modo de trabajo final en el marco del curso de React dictado por el profesor Félix Blanco desde la comisión 34825 de la plataforma educativa Coderhouse.
 
+## Ejecutar localmente
+
+Para poder ejecutar el código se debe correr el siguiente comando:
+
+- npm start
+
+Descargado el mismo se deben usar los siguientes comandos:
+
+- npm i
+- npm start
+
 ## Listado de tecnologias usadas
 
 - React
@@ -66,42 +77,36 @@ El presente proyecto implica un E-commerce para una bolunera y fue realizado a m
     
     - La totalidad de los productos del stock
     
-    ![Untitled](./src/img/Untitled%200.png)
+    ![Untitled](./src/img/imagen-1.png)
     
     - se puede visualizar el logo del carrito en la parte superior derecha desde el que se puede acceder a una vista compacta de los productos agregados o bien se da un feedback donde se avisa que el carrito está vacio. El carrito se encuentra alojado en la ruta /cart y se accede al mismo ya sea desde el boton checkout desde la vista compacta del carrito o bien desde el boton ir al carrito que aparece en la vista del detalle de un producto cuando este es agregado
     
-    ![Untitled](./src/img/Untitled%201.png)
+    ![Untitled](./src/img/imagen-2.png)
     
-    ![Untitled](./src/img/Untitled%202.png)
+    ![Untitled](./src/img/imagen-3.png)
     
     - hay una sidebar del lado izquierdo que al desplegarse mediante un boton con forma de flecha permite volver a cerrarla mediante otra flecha, y filtra una vista por categoria o bien mostrando todos los productos
     
-    ![Untitled](./src/img/Untitled%203.png)
+    ![Untitled](./src/img/imagen-4.png)
     
 - **Flow:**
     
     
     - Al momento de clickear sobre un producto la ruta /item/:id (cabe destacar nuevamente que los id de cada producto no fueron generados en forma dinámica sino manualmente a fin de que sean mas descriptivos)
     
-    ![Untitled](./src/img/Untitled%204.png)
-    
-    - Al ingresar en la ruta un producto que no existe en firebase se da un mensaje con una foto y la leyenda “El producto que buscas no existe”
-    
-     
-    
-    ![Untitled](./src/img/Untitled%205.png)
+    ![Untitled](./src/img/imagen-5.png)
     
 - **Firebase:**
     - Se implementaron dos colecciones siendo la una generada mediante carga manual de datos (**productos**) y la otra generada desde la app mediante las compras realizadas (**orders**). Cabe destacar que los ID tal como se indicó mas arriba se asignaron a los documentos de la colección productos de manera manual a fin de que sean mas descriptivos y resulten mas facil de organizar su carga y manejo desde firebase
-    
-    ![Estructura de firebase en bulonera.jpg](./src/img/Untitled%206%20Estructura_de_firebase_en_bulonera.jpg)
-    
     - items:
         - Las fotos de los productos para firebase se incluyeron mediante una ruta a fotos disponible en internet
         - El precio unitario se incluyó como campo “price”
         - La descriptión “description” en firebase se visualiza solo de manera parcial viéndose en forma completa recién al ingresar al detalle del producto
         
     - orders: permiten el registro de la compra de mas de un item de distintas categorias
+
+    ![Untitled](./src/img/imagen-6.png)
+
     - el cart resulta accesible desde toda la experiencia y con cada producto nuevo agregado se visualiza como se incrementa la cantidad de productos distintos. Ingresando a la versión compacta del carrito desde el icono del mismo se puede ver la cantidad de pruductos de cada tipo y se realizó un reduce para obtener el precio total del carrito.
 
 - **Checkout:**
@@ -117,3 +122,4 @@ El presente proyecto implica un E-commerce para una bolunera y fue realizado a m
                 Gracias por leer hasta el final! Que tenga un buen dia!
 
 </aside>
+
