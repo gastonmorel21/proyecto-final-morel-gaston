@@ -119,7 +119,7 @@ Descargado el mismo se deben usar los siguientes comandos:
 
 <aside>
               
-                Gracias por leer hasta el final! Que tenga un buen dia!
+    Gracias por leer hasta el final! Que tenga un buen dia!
 
 </aside>
 
